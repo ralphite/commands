@@ -31,6 +31,8 @@
     - sort -s
 - uniq
 - paste
+- tac
+- tr
 - sed
 - awk
 - grep/egrep
@@ -54,6 +56,7 @@
 - gzip
 - bzip2
 - split
+- dd
 
 ## Network
 
@@ -61,6 +64,7 @@
 - ip
 - dig
 - mtr
+- nc
 
 ## Package Mgmt
 
@@ -100,6 +104,8 @@
 - netstat
 - dstat
 - stap(systemtap)
+- hdparm
+- uname
 
 ## Debugging
 
@@ -119,18 +125,34 @@
 
 ## MISC
 
-- args
+- xargs
 - parallel
+- expr
 - 2>&1
 - > /dev/null
 - tee
 - lsb_release -a
+- yes
+- cal
+- env
+- export
+- seq
+- nl
+- shuf
+- perl -e
+- python -m
+- alias
 
 ## Session
 
 - nohup
 - disown
 - screen
+- w
+- who
+- whoami
+- finger
+- reset
 
 ## Shell Scripting (bash)
 
@@ -147,6 +169,7 @@
 - ^r
 - ^w
 - ^u
+- ^l
 - python -m SimpleHTTPServer
 - sudo !!
 - man ascii
